@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title></title>
+        
+        <script>
+
+            function quatro_notas() {
+
+                var notas = [];
+                var soma = 0;
+
+                for (var i = 0; i < 4; i++) {
+
+                    notas[i] = parseFloat(prompt('Digite a nota ' + (i+1)));
+
+                    soma += notas[i];
+
+                }
+
+                alert('As notas digitadas foram: ' + notas.join(', '));
+
+                document.write('<h1> A média das notas é: ' + (soma/4) + '</h1>');
+
+            }
+
+        </script>
+
+    </head>
+    <body>
+
+        <script>
+
+            quatro_notas();
+
+        </script>
+
+    </body>
+</html>

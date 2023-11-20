@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <script>
+
+            function gerarfoto(){
+                var resposta = prompt("Você mora na cidade de São Paulo? (Sim ou Não)");
+
+                if (resposta.toLowerCase() === "sim"){
+
+                    document.write('<img width="1080px" height="720px" src="saopaulo.jpg">');
+
+                } else{
+
+                    document.write('<img width="1080px" height="720px" src="campinas.jpg">');
+
+                }
+
+            }
+
+        </script>
+
+
+    </head>
+    <body>
+
+        <script>
+            gerarfoto();
+        </script>
+        
+    </body>
+</html>
